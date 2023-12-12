@@ -1,0 +1,56 @@
+name: 🐛 Regression report
+description: File a regression report
+labels: [kind/regression]
+title: "🐛 <title>"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check if this regression has [already been reported](./).
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What is the issue?
+      description: What happened? What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: log-output
+    attributes:
+      label: Log output
+      description: Please paste the log output
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What are the steps that we need to follow to reproduce this issue? Please provide a self-contained example in form of a snippet or a repository.
+    validations:
+      required: false
+  - type: input
+    id: good-version
+    attributes:
+      label: Good Testla version
+      description: What Testla SDK & Version worked nicely?
+      placeholder: e.g. Node.js v1.0.0, Python v1.0.3, Java v0.3.0, etc.
+    validations:
+      required: true
+  - type: input
+    id: bad-version
+    attributes:
+      label: Bad Testla version
+      description: What Testla SDK & Version doesn't work any more?
+      placeholder: e.g. Node.js v1.0.0, Python v1.0.3, Java v0.3.0, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Any specific details about your environment.
+      description: Help us help you! 
+  - type: markdown
+    attributes:
+      value: |
+        We appreciate you taking the time to report a bug.
+        If you want to become a Testla contributor and submit this improvement, everyone will appreciate it.
