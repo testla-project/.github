@@ -1,6 +1,6 @@
 name: 🐛 Regression report
 description: File a regression report
-labels: [kind/regression]
+labels: ["regression", "bug", "needs triage"]
 title: "🐛 <title>"
 body:
   - type: markdown

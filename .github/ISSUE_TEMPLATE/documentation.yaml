@@ -1,6 +1,6 @@
 name: 📖 Documentation
 description: Report a documentation issue
-labels: [area/documentation]
+labels: ["documentation"]
 body:
   - type: markdown
     attributes:

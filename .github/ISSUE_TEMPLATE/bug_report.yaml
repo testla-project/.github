@@ -1,6 +1,6 @@
 name: 🐞 Bug report
 description: File a bug report
-labels: [kind/bug]
+labels: ["bug", "needs triage"]
 title: "🐞 <title>"
 body:
   - type: markdown
