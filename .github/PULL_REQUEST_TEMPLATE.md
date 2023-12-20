@@ -21,6 +21,7 @@ _Put an `x` in the boxes that apply. You can also fill these out after creating 
 - [ ] Lint and (unit) tests pass locally with my changes
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] I have added/updated necessary documentation
+- [ ] I have considered ability aliasing
 
 ## Further comments
 
