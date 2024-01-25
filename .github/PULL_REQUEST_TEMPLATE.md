@@ -22,6 +22,7 @@ _Put an `x` in the boxes that apply. You can also fill these out after creating 
 - [ ] I have added tests that prove my fix is effective or that my feature works
 - [ ] I have added/updated necessary documentation
 - [ ] I have considered ability aliasing
+- [ ] I have considered logging
 
 ## Further comments
 
